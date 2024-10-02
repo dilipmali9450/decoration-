@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+tailwind.config = {
+  theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    }
+  }
+}
+</script>
+</head>
+<body class=" bg-gradient-to-r from-pink-200 to-white">
+    <div class="fixed left-0 right-0 top-0 ">
+        <nav
+            class=" h-10 flex text-center text-3xl font-serif justify-center  space-x-8 bg-pink-400">
+            <h1 class="">DECORATION</h1>
+        </nav>
+        <div class="h-8 bg-slate-200 flex justify-center items-center  ">
+            <ul class="flex  space-x-20 text-base  ">
+                <li class=" w-24 text-center hover:bg-pink-200 rounded-md hover:shadow-md cursor-pointer">Home</li>
+                <a href="#mandap"><li class=" w-24 text-center hover:bg-pink-200 rounded-md hover:shadow-md cursor-pointer">Service</li></a>
+                <li class=" w-24 text-center hover:bg-pink-200 rounded-md hover:shadow-md cursor-pointer ">About</li>
+                <li class=" w-24 text-center hover:bg-pink-200 rounded-md hover:shadow-md cursor-pointer">Call now</li>
+            </ul>
+        </div>
+    </div>
+       <!--mandap decoration-->
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center p-6 shadow-md pt-32">
+        <div class="md:w-1/2 p-4">
+            <h1 class="text-3xl font-bold mb-4">  MANDAP_DECORATION</h1>
+            <p class="text-gray-700">A great mandap design is not just about pleasing aesthectics but also about the meaning behind putting up a canopy with four pillars that marks the auspiciousness of a fruitful married life. Only a selected number of people are allowed in the mandap under it’s canopy .</p>
+            <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</button>
+        </div>
+        <div class="md:w-1/2 p-4 ">
+            <img src="mandap.jpg" alt="Placeholder Image" class="rounded-lg shadow-md ">
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center p-6  shadow-md">
+        <div class="md:w-1/2 p-4">
+            <img src="ballone.jpg" alt="Placeholder Image" class="rounded-lg shadow-md">
+        </div>
+           <!--balloon decoration-->
+        <div class="md:w-1/2 p-4">
+            <h1 class="text-3xl font-bold mb-4">BALLOON_DECORATION</h1>
+            <p class="text-gray-700">Balloon décors are similar to any décor trend. All it takes is for one really unique idea to trend to get the wheels turning, and before anybody realises, there are remixed versions popping up in various spaces. The recent rise in popularity of balloon garlands has resulted in balloons being a must-have décor element at any event space.
+                In this post, we have compiled several ways to help you utilise balloons in a fresh perspective and get your party more Instagram kudos.</p>
+            <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</button>
+        </div>
+    </div>
+       <!--car decoretion -->
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center p-6 shadow-md pt-32">
+        <div class="md:w-1/2 p-4">
+            <h1 class="text-3xl font-bold mb-4">  CAR_DECORATION</h1>
+            <p class="text-gray-700">Make your wedding day unforgettable with stunning car decorations that will leave a lasting impression. Our expert team provides exceptional wedding car decoration services. We will add an extra touch of elegance and sophistication to your special day.</p>
+            <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</button>
+        </div>
+        <div class="md:w-1/2 p-4">
+            <img src="car.jpg" alt="Placeholder Image" class="rounded-lg shadow-md">
+        </div>
+    </div>
+       <!--footer-->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left">
+                <h2 class="text-xl font-bold">decoration Business </h2>
+                <p class="mt-1">📞contact number.123456789</p>
+            </div>
+            <div class="flex space-x-4 mt-4 md:mt-0 ">
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="h-8 w-8 hover:opacity-75 transition-opacity">
+                </a>
+                
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="h-8 w-8 hover:opacity-75 transition-opacity">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
